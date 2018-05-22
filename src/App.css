@@ -1,0 +1,66 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Verdana";
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+
+}
+
+body > * {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.header .h1, .header img {
+  display: block;
+  width: 100%;
+}
+
+.header img {
+  max-height: 20em;
+  width: auto;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+}
+
+ul + label {
+  display: block;
+}
+
+li {
+  margin-top: 1em;
+}
+
+textarea {
+  width: 99%;
+  display: block;
+  height: 5em;
+}
+
+[type=submit] {
+  float: right;
+  background-color: transparent;
+  border: 2px solid red;
+  padding: .5em 1em;
+  margin-top: 2em;
+  font-size: 1.4em;
+}
+
+:focus {
+  outline: 0;
+}
